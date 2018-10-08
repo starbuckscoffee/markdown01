@@ -14,6 +14,15 @@
 # Title 1 h1
 Hello World
 **Good morning**
+```mermaid
+graph TD
+A[Christmas] -->|Get money| B(Go shopping)
+B --> C{Let me think}
+C -->|One| D[Laptop]
+C -->|Two| E[iPhone]
+C -->|Three| F[Car]
+```
+
 
 It is fine
 ## Title 2 h2
@@ -51,12 +60,4 @@ It is fine
 
 ## This is a pen
 
-```mermaid
-graph TD
-A[Christmas] -->|Get money| B(Go shopping)
-B --> C{Let me think}
-C -->|One| D[Laptop]
-C -->|Two| E[iPhone]
-C -->|Three| F[Car]
-```
 
