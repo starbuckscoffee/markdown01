@@ -2,12 +2,12 @@
 
 <!-- code_chunk_output -->
 
-* [Title 1 h1](#title-1-h1)
-	* [Title 2 h2](#title-2-h2)
-* [Title 2 h1](#title-2-h1)
-	* [Title 3 h2](#title-3-h2)
-		* [Title 4 h3](#title-4-h3)
-			* [Code](#code)
+- [Title 1 h1](#title-1-h1)
+    - [Title 2 h2](#title-2-h2)
+- [Title 2 h1](#title-2-h1)
+    - [Title 3 h2](#title-3-h2)
+        - [Title 4 h3](#title-4-h3)
+    - [This is a pen](#this-is-a-pen)
 
 <!-- /code_chunk_output -->
 
@@ -42,11 +42,33 @@ It is fine
 [Yahoo]:https://yahoo.com
 [MSN]: https://msn.com
 
-####Code
+```code
 
     int main(char argv[], int argc){
-        printf("Hello world")
+        printf("Hello world Hwllo World Hellow World")
     }
+```
 
-`````
-    using code
+## This is a pen
+
+```mermaid
+sequenceDiagram
+Alice ->> Bob: Hello Bob, how are you?
+Bob-->>John: How about you John?
+Bob--x Alice: I am good thanks!
+Bob-x John: I am good thanks!
+Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text does<br/>not fit on a row.
+
+Bob-->Alice: Checking with John...
+Alice->John: Yes... John, how are you?
+```
+
+```mermaid
+graph LR
+A[Square Rect] -- Link text --> B((Circle))
+A --> C(Round Rect)
+B --> D{Rhombus}
+C --> D
+```
+
+
